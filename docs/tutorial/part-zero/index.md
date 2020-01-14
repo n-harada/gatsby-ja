@@ -40,7 +40,7 @@ Gatsby と Node.js をインストールするには、[Homebrew](https://brew.s
 
 1. ターミナルを開きます
 1. `brew install node`を実行します
-   - もし homebrew でインストールしたくない場合は、[Node.js の公式ウェブサイト](https://nodejs.org/ja/)より、最新バージョンの Node.js バをダウンロードして、ダウンロードしたファイルをダブルクリックしてインストール手順に従ってください。
+   - もし Homebrew でインストールしたくない場合は、[Node.js の公式ウェブサイト](https://nodejs.org/ja/)より、最新バージョンの Node.js をダウンロードして、ダブルクリックして表示されるインストール手順に従ってください。
 
 ### Windows の手順
 
