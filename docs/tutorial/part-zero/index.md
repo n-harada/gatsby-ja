@@ -10,7 +10,7 @@ disableTableOfContents: true
 
 コマンドラインは、コンピュータでコマンドを実行するために使用するテキストベースのインターフェイスです。またはターミナルと呼ぶこともよくあります。このチュートリアルでは、両方を同じ意味で使用します。Mac で Finder、Windows で Explorer を使用するのとよく似ています。Finder と Explorer は、グラフィカルユーザーインターフェイス（GUI）の一例です。コマンドラインは、コンピュータと対話するための強力なテキストベースの方法です。
 
-コンピュータのコマンドラインインターフェイス（CLI）を見つけて開いてみましょう。使用しているオペレーティングシステムに応じて、[**Mac の手順**](http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/)、[**Windows の手順**](https://www.quora.com/How-do-I-open-terminal-in-windows)、または[**Linux の手順**](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/)の手順を参照してください。
+コンピュータのコマンドラインインターフェイス（CLI）を見つけて開いてみましょう。使用しているオペレーティングシステムに応じて、[**Mac の手順**](http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/)、[**Windows の手順**](https://www.quora.com/How-do-I-open-terminal-in-windows)、または[**Linux の手順**](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/)を参照してください。
 
 _コマンドラインがはじめての方へ: コマンドを「実行する」とは、与えられた一連の指示をコマンドプロンプトに入力して、エンターキーを押すことを意味します。コマンドは、`node --version`のようにハイライトしたボックスの中に記載します。しかし、ハイライトしたボックスの中のすべてがコマンドというわけではありません！実行する必要があるコマンドは、明示的にそれを実行するよう書かれています。_
 
