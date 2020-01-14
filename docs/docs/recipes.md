@@ -29,7 +29,7 @@ tableOfContentsDepth: 2
 より詳しくは[ドキュメントテンプレート](/docs/docs-templates/)を見てください。
 -->
 
-[フルサイズのチュートリアル](/tutorial/)を踏破するのでもなく、大量の[ドキュメント](/docs/)の海に潜るのでもなく、その中間に位置する"ちょうどよい"リソースがあったら良いと思いませんか？
+[フルサイズのチュートリアル](/tutorial/)を踏破するのでもなく、大量の[ドキュメント](/docs/)の海に潜るのでもなく、その中間に位置する"ちょうど良い"リソースが必要ですか？
 ここには、Gatsby スタイルやその他つくりたいものに合わせた様々なレシピが揃っています。
 
 ## [1. ページとレイアウト](/docs/recipes/pages-layouts)
@@ -44,7 +44,7 @@ tableOfContentsDepth: 2
 
 ## [2. CSS によるスタイリング](/docs/recipes/styling-css)
 
-あなたのウェブサイトにスタイルを追加する手段はたくさんあります。公式チームとコミュニティが提供するプラグインのおかげで、ほとんどすべての方法が Gatsby で使えます。
+あなたのウェブサイトにスタイルを追加する手段はたくさんあります。公式チームとコミュニティーが提供するプラグインのおかげで、ほとんどすべての方法が Gatsby で使えます。
 
 - [Using global CSS files without a Layout component](/docs/recipes/styling-css#using-global-css-files-without-a-layout-component)
 - [Using global styles in a layout component](/docs/recipes/styling-css#using-global-styles-in-a-layout-component)
@@ -57,7 +57,7 @@ tableOfContentsDepth: 2
 
 ## [3. スターターを活用する](/docs/recipes/working-with-starters)
 
-[スターター](/docs/starters/) は公式チームやコミュニティによってメンテナンスされている、Gatsby サイトの雛形です。
+[スターター](/docs/starters/) は公式チームやコミュニティーによってメンテナンスされている、Gatsby サイトの雛形です。
 
 - [スターターを使う](/docs/recipes/working-with-starters#using-a-starter)
 
@@ -68,49 +68,50 @@ A Gatsby theme lets you centralize the look-and-feel of your site. You can seaml
 - [テーマスターターを使って新しいサイトをつくる](/docs/recipes/working-with-themes#creating-a-new-site-using-a-theme-starter)
 - [新しいテーマをつくる](/docs/recipes/working-with-themes#building-a-new-theme)
 
-## [5. データを取り扱う](/docs/recipes/sourcing-data)
+## [5. データの取得](/docs/recipes/sourcing-data)
 
-ファイルシステムやデータベースなど複数の場所からデータを引っ張ってきて、Gatsby サイトに取り込みます。
+ファイルシステムやデータベースなど複数の場所からデータを取得し、Gatsby サイトに取り込みます。
 
 - [GraphQL にデータを追加する](/docs/recipes/sourcing-data#adding-data-to-graphql)
 - [Sourcing Markdown data for blog posts and pages with GraphQL](/docs/recipes/sourcing-data#sourcing-markdown-data-for-blog-posts-and-pages-with-graphql)
 - [WordPress からデータを取得する](/docs/recipes/sourcing-data#sourcing-from-wordpress)
 - [Contentful からデータを取得する](/docs/recipes/sourcing-data#sourcing-data-from-contentful)
-- [Pulling data from an external source and creating pages without GraphQL](/docs/recipes/sourcing-data#pulling-data-from-an-external-source-and-creating-pages-without-graphql)
+- [GraphQL を使わずに外部からデータを取得しページを作成する](/docs/recipes/sourcing-data#pulling-data-from-an-external-source-and-creating-pages-without-graphql)
 - [Drupal からデータを取得する](/docs/recipes/sourcing-data#sourcing-content-from-drupal)
 
-## [6. データをクエリする](/docs/recipes/querying-data)
+## [6. データを要求する](/docs/recipes/querying-data)
 
-Gatsby lets you access your data across all sources using a single GraphQL interface.
+Gatsby では、単一の GraphQL インターフェイスを通じて、あらゆるソースからデータにアクセスできます。
 
-- [Querying data with a Page Query](/docs/recipes/querying-data#querying-data-with-a-page-query)
-- [Querying data with the StaticQuery Component](/docs/recipes/querying-data#querying-data-with-the-staticquery-component)
-- [Querying data with the useStaticQuery hook](/docs/recipes/querying-data/#querying-data-with-the-usestaticquery-hook)
-- [Limiting with GraphQL](/docs/recipes/querying-data#limiting-with-graphql)
-- [Sorting with GraphQL](/docs/recipes/querying-data#sorting-with-graphql)
-- [Filtering with GraphQL](/docs/recipes/querying-data#filtering-with-graphql)
+- [Page Query を使ってデータを要求する](/docs/recipes/querying-data#querying-data-with-a-page-query)
+- [StaticQuery Component を使ってデータを要求する](/docs/recipes/querying-data#querying-data-with-the-staticquery-component)
+- [useStaticQuery hook を使ってデータを要求する](/docs/recipes/querying-data/#querying-data-with-the-usestaticquery-hook)
+- [GraphQL で数に制限をかける](/docs/recipes/querying-data#limiting-with-graphql)
+- [GraphQL でソートする](/docs/recipes/querying-data#sorting-with-graphql)
+- [GraphQL でフィルターをかける](/docs/recipes/querying-data#filtering-with-graphql)
 - [GraphQL Query Aliases](/docs/recipes/querying-data#graphql-query-aliases)
 - [GraphQL Query Fragments](/docs/recipes/querying-data#graphql-query-fragments)
-- [Querying data client-side with fetch](/docs/recipes/querying-data#querying-data-client-side-with-fetch)
+- [fetch によるクライアントサイドクエリ](/docs/recipes/querying-data#querying-data-client-side-with-fetch)
 
 ## [7. 画像を取り扱う](/docs/recipes/working-with-images)
 
 Access images as static resources, or automate the process of optimizing them through powerful plugins.
+イメージを静的なリソースとして使う。あるいはプラグインを通じて最適化プロセスを自動化する。
 
-- [Import an image into a component with webpack](/docs/recipes/working-with-images#import-an-image-into-a-component-with-webpack)
-- [Reference an image from the static folder](/docs/recipes/working-with-images#reference-an-image-from-the-static-folder)
-- [Optimizing and querying local images with gatsby-image](/docs/recipes/working-with-images#optimizing-and-querying-local-images-with-gatsby-image)
-- [Optimizing and querying images in post frontmatter with gatsby-image](/docs/recipes/working-with-images#optimizing-and-querying-images-in-post-frontmatter-with-gatsby-image)
+- [webpack を使って画像をコンポーネントに埋め込む](/docs/recipes/working-with-images#import-an-image-into-a-component-with-webpack)
+- [静的フォルダにある画像を参照する](/docs/recipes/working-with-images#reference-an-image-from-the-static-folder)
+- [gatsby-image を使って画像を最適化するクエリを書く](/docs/recipes/working-with-images#optimizing-and-querying-local-images-with-gatsby-image)
+- [Front-matter で gatsby-image による最適化を指示する](/docs/recipes/working-with-images#optimizing-and-querying-images-in-post-frontmatter-with-gatsby-image)
 
 ## [8. データの変換](/docs/recipes/transforming-data)
 
-Transforming data in Gatsby is plugin-driven. Transformer plugins take data fetched using source plugins, and process it into something more usable (e.g. JSON into JavaScript objects, and more).
+Gatsby でのデータ変換はプラグインによって実現されています。Transformer プラグインは source プラグインを通じてデータを取得し、実際に使う形式へ変換します（例：JSON を JavaScript オブジェクトにする等）。
 
-- [Transforming Markdown into HTML](/docs/recipes/transforming-data#transforming-markdown-into-html)
+- [Markdown を HTML に変換する](/docs/recipes/transforming-data#transforming-markdown-into-html)
 
 ## [9. サイトのデプロイ](/docs/recipes/deploying-your-site)
 
-お披露目時です。サイトの出来栄えに満足したら、それを全世界に公開しましょう！
+お披露目の時間です。サイトの出来栄えに満足したら、全世界に公開しましょう！
 
 - [デプロイの準備](/docs/recipes/deploying-your-site#preparing-for-deployment)
 - [Netlify でデプロイ](/docs/recipes/deploying-your-site#deploying-to-netlify)
