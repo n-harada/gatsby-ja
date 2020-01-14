@@ -54,7 +54,7 @@ _💡 パッケージをインストールしている際、確認が求めら�
 
 #### Ubuntu, Debian などの `apt` ベースのディストリビューション:
 
-1. `sudo apt update`を実行し、次に`sudo apt -y upgrade`を実行して、Linux ディストリビューションを次に進むための準備をします。
+1. 次の手順に進む前に、`sudo apt update`を実行し、次に`sudo apt -y upgrade`を実行して、Linux ディストリビューションを万全の状態にしておきます。
 2. `sudo apt-get install curl`を実行して curl をインストールします。これにより、データ転送と追加の依存関係のダウンロードができます。
 3. インストールが完了したら、`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`を実行して、最新バージョンの nvm をダウンロードします。
 4. 動作を確認するには、次のコマンドを使用します。 `nvm --version`。バージョン番号が出力されるはずです。
