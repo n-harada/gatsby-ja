@@ -65,7 +65,7 @@ _💡 パッケージをインストールしている際、確認が求めら�
 1. `sudo pacman -Sy`を実行して、環境を万全の状態にしておきます。
 2. これらのディストリビューションには curl がすでにインストールされているので、それを使って nvm をダウンロードします。
    `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`
-3. nvm を使用する前に、`sudo pacman -S grep awk tar`を実行してさらなる依存をインストールする必要があります。
+3. nvm を使用する前に、`sudo pacman -S grep awk tar`を実行してさらなる依存パッケージをインストールする必要があります。
 4. 動作を確認するには、次のコマンドを使用します。 `nvm --version`。バージョン番号が出力されるはずです。
 5. [デフォルトの Node.js バージョンをセットする](#set-default-nodejs-version)
 
